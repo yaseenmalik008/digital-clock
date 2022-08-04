@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(28, 26, 26);
+}
+#clock{
+    border: 3px solid black;
+    color: aqua;
+  margin: auto;
+    display: flex;
+   margin-top: 17rem;
+    justify-content: center;
+    align-content: center;
+    width: 13rem;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 5px 5px aquamarine;
+    background-color: black;
+    border-radius: 2rem;
+}
