@@ -25,16 +25,16 @@ let clock = ()=>{
     let hrs = date.getHours()
     let mins = date.getMinutes()
     let secs =  date.getSeconds()
-    let period = "AM"
+    let period = "PM"
     let day = date.getMonth()
     let dates = date.getDate()
     let year = date.getFullYear()
 
     if(hrs == 0 ){
         hrs = 12
-    }else if(hrs>=12){
+    }else if(hrs<=12){
         hrs = hrs - 12
-        let period = "PM"
+        let period = "AM"
     }
 
     let time = `Time:${hrs}:${mins}:${secs}:${period} Date:${day}-${dates}-${year}`
